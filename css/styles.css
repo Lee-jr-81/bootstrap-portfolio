@@ -1,0 +1,66 @@
+/*------------------  GLOBAL RESET ----------------  */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*-------------------  CUSTOM PROPERTIES -------------  */
+
+:root {
+  --clr-neutral-dark: #343a40;
+  --clr-neutral-med: #868e96;
+  --clr-neutral-semi: #dee2e6;
+  --clr-neutral-light: #f8f9fa;
+  --clr-white: #fff;
+
+  --clr-accent-primary: #862e9c;
+  --clr-accent-secondary: #3bc9db;
+  --clr-accent-tertiary: #4dabf7;
+
+  --ff-base: "Kanit", sans-serif;
+
+  --fw-regular: 300;
+  --fw-semibold: 500;
+
+  --fs-main: 0.875rem;
+}
+
+/*----------------------  ---------------------------  */
+
+.navbar {
+  background-color: var(--clr-neutral-dark) !important;
+}
+
+.navbar-custom .navbar-text {
+  color: var(--clr-neutral-semi);
+}
+
+.jumbotron {
+  border-bottom: 50px solid var(--clr-accent-secondary);
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.tech {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--clr-accent-primary);
+}
+
+.left {
+  padding: 2rem;
+}
+
+.icons {
+  display: flex;
+  width: 4rem;
+}
