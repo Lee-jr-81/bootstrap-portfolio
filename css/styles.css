@@ -42,11 +42,27 @@
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 700;
 }
 
-p {
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 4rem;
+  text-align: center;
+}
+
+.btn {
+  background-color: var(--clr-neutral-dark);
+  border: none;
+}
+
+.btn:hover {
+  background-color: var(--clr-accent-primary);
+}
+
+.header {
   font-size: 1.5rem;
 }
 
@@ -63,4 +79,12 @@ p {
 .icons {
   display: flex;
   width: 4rem;
+}
+
+.card {
+  margin: 2rem;
+}
+
+.card-img-top {
+  height: 250px;
 }
