@@ -91,6 +91,11 @@ h2 {
 
 .about {
   background-color: #e3fafc;
+  padding: 2rem;
+}
+
+.about_space {
+  margin: 3rem;
 }
 
 .fa {
