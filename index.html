@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
@@ -37,7 +41,7 @@
               <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link disabled" aria-disabled="true">Disabled</a>
@@ -141,27 +145,104 @@
           </div>
         </div>
       </div>
-      <hr />
+      <hr class="my-5" />
 
       <!-------------------------    ABOUT ME   ------------->
-      <div class="about">
+      <div class="about" id="about">
         <div class="row">
           <div
-            class="left col-lg-6 d-flex align-items-center justify-content-center"
+            class="col-lg-6 d-flex align-items-flex-start justify-content-flex-start p-4"
           >
             <div class="flexible">
-              <div class="skills"></div>
+              <div class="skills">
+                <h3 class="skill_header">Skills</h3>
+                <div class="skill_list">
+                  <ul>
+                    <li class="skill_item">Developer Workflow</li>
+                    <li class="skill_item">React Library</li>
+                    <li class="skill_item">Basic Node.js</li>
+                    <li class="skill_item">Working with API's</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
+
           <div
-            class="right col-lg-6 d-flex align-items-center justify-content-center"
+            class="col-lg-6 d-flex align-items-center justify-content-center p-4"
           >
             <div class="flexible">
-              <div class="about_me"></div>
+              <div class="about_me">
+                <h3 class="about_header">About Me</h3>
+                <p class="about_content">
+                  Having worked in a technical industry for 25 years, over that
+                  time, i have developed an ability to see solutions to any
+                  problem that may arise. Problem solving has almost become an
+                  enjoyable game. Very often there are many ways to achieve a
+                  goal, and i find it very satisfying finding the best one.<br />
+                  Time and again i have found myself excelling in the work place
+                  environment. I attribute this recurring theme to my ability to
+                  look beyond the obvious in any situation and develop a
+                  strategy around whats best for all involved. I am very much a
+                  fan of a collaborative work ethic. I strongly believe we can
+                  achieve great things alone, but game changing things together.
+                  In fact, many of the projects i have planned over the next two
+                  years, have that ethos at the centre.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!----------------------------------- FOOTER ---------------------------->
+
+    <footer class="text-center text-lg-start" style="background-color: ">
+      <div class="container d-flex justify-content-center py-5">
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <!-- <button
+          type="button"
+          class="btn btn-primary btn-lg btn-floating mx-2"
+          style="background-color: #343a40"
+        >
+          <i class="fab fa-facebook-f"></i>
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary btn-lg btn-floating mx-2"
+          style="background-color: #343a40"
+        >
+          <i class="fab fa-youtube"></i>
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary btn-lg btn-floating mx-2"
+          style="background-color: #343a40"
+        >
+          <i class="fab fa-instagram"></i>
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary btn-lg btn-floating mx-2"
+          style="background-color: #343a40"
+        >
+          <i class="fab fa-twitter"></i>
+        </button> -->
+      </div>
+
+      <!-- Copyright -->
+      <div
+        class="text-center text-black p-3"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+      >
+        © 2020 Copyright:
+        <a class="text-black" href="#">Lee Williams</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
   </body>
 </html>
